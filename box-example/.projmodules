@@ -1,0 +1,4 @@
+[submodule "roles/sa-mysql56"]
+        path = roles/sa-mysql56
+        url = https://github.com/softasap/sa-mysql56.git
+
