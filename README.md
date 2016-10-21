@@ -9,14 +9,17 @@ Example of usage (all parameters are optional)
 
 Simple
 
+```YAML
   roles:
     - {
         role: "sa-mysql56"
       }
-
+```
 
 Advanced:
 
+
+```YAML
 
   roles:
     - {
@@ -34,6 +37,6 @@ Advanced:
           priv: "app_db.*:ALL"
       }
 
-
+```
 
 
