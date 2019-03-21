@@ -14,7 +14,7 @@ galaxy_info:
   # - Apache
   # - CC-BY
   license: MIT
-  min_ansible_version: 2.0.0
+  min_ansible_version: 2.7.0
   #
   # Below are all platforms currently available. Just uncomment
   # the ones that apply to your role. If you don't see your
@@ -23,14 +23,14 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
-#        - trusty
+        - trusty
         - xenial
+        - bionic
   galaxy_tags:
     - database
     - db
     - mysql
-    - mysql 5.6
-    - 5.6
+    - mysql_56
     - ubuntu
   #platforms:
   #- name: EL
